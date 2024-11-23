@@ -27,9 +27,9 @@ A bot designed to automate transactions and bridge assets on the t3rn network, m
    ```
    npm install
    ```
-3. Copy accounts folder
+3. Copy all folder
    ```
-   cp accounts/accounts_tmp.js accounts/accounts.js
+   cp accounts/accounts_tmp.js accounts/accounts.js && cp config/config_tmp.js config/config.js
    ```
 4. Configure the accounts
    ```
