@@ -75,9 +75,9 @@ A bot designed to automate transactions and bridge assets on the t3rn network, m
 9. Copy `config` and `accounts` folder to `app` folder.
 
 10. To start the app open your `Command Prompt` or `Power Shell` again and run.
-   ```
-   node app/index.js
-   ```
+    ```
+    node app/index.js
+    ```
    
 
 ## UPDATE BOT
