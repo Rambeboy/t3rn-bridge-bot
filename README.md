@@ -66,13 +66,15 @@ A bot designed to automate transactions and bridge assets on the t3rn network, m
 
 5. Navigate to `accounts` directory and rename `accounts_tmp.js` to `accounts.js`.
 
-6. Open `accounts.js` and setup your wallet. 
+6. Open `accounts.js` and setup your wallet.
 
-7. Now back to the `t3rn-bridge-bot` folder
+7. Open `config.js` and setup your ETH Balance OP / ARB 
 
-8. Copy `config` and `accounts` folder to `app` folder
+8. Now back to the `t3rn-bridge-bot` folder.
 
-9. To start the app open your `Command Prompt` or `Power Shell` again and run
+9. Copy `config` and `accounts` folder to `app` folder.
+
+10. To start the app open your `Command Prompt` or `Power Shell` again and run.
    ```
    node app/index.js
    ```
