@@ -1,12 +1,8 @@
 # T3RN BRIDGE BOT
 
-**T3RN AIRDROP**
+A bot designed to automate transactions and bridge assets on the t3rn network, making the process seamless and efficient. Now supports both Optimism Sepolia and Arbitrum Sepolia testnets.
 
-New Airdrops : **T3RN**
-
-Register : [Here](https://bridge.t1rn.io/)
-
-**SWAP AND EARN BRN**
+**Register : [T3rn Airdrop](https://bridge.t1rn.io/)**
 
 ## BOT FEATURE
 
@@ -17,7 +13,7 @@ Register : [Here](https://bridge.t1rn.io/)
 
 - Git
 - Node JS
-- OP Sepolia ETH BALANCE / ARB Sepolia ETH BALANCE Depends on config
+- OP Sepolia ETH BALANCE / ARB Sepolia ETH BALANCE Depends on Config.
 
 ## SETUP & CONFIGURE BOT
 
