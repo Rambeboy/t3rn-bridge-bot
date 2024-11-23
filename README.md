@@ -65,11 +65,15 @@ A bot designed to automate transactions and bridge assets on the t3rn network, m
 
 6. Open `accounts.js` and setup your wallet. 
 
-7.  Now back to the `t3rn-bridge-bot` folder
+7. Now back to the `t3rn-bridge-bot` folder
 
-8.  Copy `config.js` and `accounts` folder to `app` folder
+8. Copy `config` and `accounts` folder to `app` folder
 
-9.  To start the app open your `Command Prompt` or `Power Shell` again and run `node app/index.js`.
+9. To start the app open your `Command Prompt` or `Power Shell` again and run
+   ```
+   node app/index.js
+   ```
+   
 
 ## UPDATE BOT
 
@@ -95,9 +99,9 @@ To update bot follow this step :
 
 ## NOTE
 
-You can configure amount to swap on config file
+- You can configure amount to swap on config file
 
-If you did'nt get BRN Point, change the config OP or ARB RAWDATA with yours. Where to get it ? do manual TX from ARB to OP or OP to ARB, and go to explorer and copy the Input Data as HEX.
+- If you did'nt get BRN Point, change the config OP or ARB RAWDATA with yours. Where to get it ? do manual TX from ARB to OP or OP to ARB, and go to explorer and copy the Input Data as HEX.
 
 ## LICENSE
 
