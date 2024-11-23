@@ -68,7 +68,7 @@ A bot designed to automate transactions and bridge assets on the t3rn network, m
 
 6. Open `accounts.js` and setup your wallet.
 
-7. Open `config.js` and setup your ETH Balance OP / ARB 
+7. Open `config.js` and setup your ETH Balance OP/ARB.
 
 8. Now back to the `t3rn-bridge-bot` folder.
 
