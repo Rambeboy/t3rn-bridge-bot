@@ -1,5 +1,5 @@
 import { privateKey } from './accounts/accounts.js';
-import { Config } from './config/config.js';
+import { Config } from '../config/config.js';
 import _0x1c0c28 from './src/core/t3rn.js';
 import { Helper } from './src/utils/helper.js';
 import _0x1391ba from './src/utils/logger.js';
