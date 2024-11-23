@@ -1,1 +1,90 @@
-const _0x17c193=_0x88ff;(function(_0x19b57e,_0x2e5dd2){const _0x460a16=_0x88ff,_0x52ccc3=_0x19b57e();while(!![]){try{const _0xfeb5bf=parseInt(_0x460a16(0x16a))/0x1*(-parseInt(_0x460a16(0x197))/0x2)+parseInt(_0x460a16(0x192))/0x3*(parseInt(_0x460a16(0x19b))/0x4)+parseInt(_0x460a16(0x175))/0x5*(-parseInt(_0x460a16(0x16e))/0x6)+-parseInt(_0x460a16(0x18d))/0x7+parseInt(_0x460a16(0x170))/0x8+parseInt(_0x460a16(0x172))/0x9*(parseInt(_0x460a16(0x17e))/0xa)+-parseInt(_0x460a16(0x17b))/0xb*(-parseInt(_0x460a16(0x199))/0xc);if(_0xfeb5bf===_0x2e5dd2)break;else _0x52ccc3['push'](_0x52ccc3['shift']());}catch(_0x376906){_0x52ccc3['push'](_0x52ccc3['shift']());}}}(_0x3fa4,0xdf5dd));import{ethers}from'ethers';import{privateKey}from'../../accounts/accounts.js';function _0x3fa4(){const _0x5ddad0=['fromPhrase','Secret\x20Phrase','ARB','t34nContract','44817JTgvGf','delay','indexOf','->\x20Tx\x20Confirmed\x20and\x20Finalizing:\x20','Invalid\x20account\x20Secret\x20Phrase\x20or\x20Private\x20Key','485458oTPdCS','info','36KZtwLJ','formatEther','80yTMaWb','Connecting\x20to\x20Account\x20:\x20','Try\x20To\x20Bridge\x20From\x20OP\x20Sepolia\x20','hexData','Wallet','provider','balance','connectWallet','acc','5JhXJQF','https://sepolia.optimism.io/','trim','toString','3122358LKAGyn','stringify','602192pOtVul','Wallet\x20connected\x20','18TPNOVl','parseUnits','executeTx','5BZdQbk','wait','explorerUrl','wallet','ARBTOOPRAWDATA','JsonRpcProvider','6961009ywCeQT','latest','0.1','2794840rSnulN','tx/','Getting\x20Wallet\x20Balance\x20of\x20','Balance\x20updated','replace','address','sendTransaction','Building\x20TX...','withdraw','SWAPAMOUNT','getTransactionCount','gwei','OPTOARBRAWDATA','getBalance','https://optimism-sepolia.blockscout.com/','1277724DbACPf'];_0x3fa4=function(){return _0x5ddad0;};return _0x3fa4();}import{Helper}from'../utils/helper.js';function _0x88ff(_0x1747de,_0x2bb707){const _0x3fa4bd=_0x3fa4();return _0x88ff=function(_0x88ff1,_0x30e196){_0x88ff1=_0x88ff1-0x169;let _0x2ceb8d=_0x3fa4bd[_0x88ff1];return _0x2ceb8d;},_0x88ff(_0x1747de,_0x2bb707);}import _0x3b7729 from'../utils/logger.js';import{Config}from'../../config/config.js';export default class T3rn{constructor(_0x4a5bda){const _0x42284b=_0x88ff;this[_0x42284b(0x169)]=_0x4a5bda,this[_0x42284b(0x191)]='0x8D86c3573928CE125f9b2df59918c383aa2B514D',this[_0x42284b(0x1a0)]=new ethers[(_0x42284b(0x17a))](_0x42284b(0x16b)),this['explorerUrl']=_0x42284b(0x18c),this['hexData']=Config['OPTOARBRAWDATA'];}async['reinit'](_0x3a1083){const _0x4e726d=_0x88ff;_0x3a1083==_0x4e726d(0x190)?(this['provider']=new ethers[(_0x4e726d(0x17a))]('https://arbitrum-sepolia.blockpi.network/v1/rpc/public'),this[_0x4e726d(0x177)]='https://sepolia.arbiscan.io/',this['hexData']=Config[_0x4e726d(0x179)]):(this[_0x4e726d(0x1a0)]=new ethers['JsonRpcProvider'](_0x4e726d(0x16b)),this[_0x4e726d(0x177)]=_0x4e726d(0x18c),this[_0x4e726d(0x19e)]=Config[_0x4e726d(0x18a)]);}async[_0x17c193(0x1a2)](){const _0x413ae6=_0x17c193;try{const _0x22cb04=this[_0x413ae6(0x169)][_0x413ae6(0x182)](/^0x/,'');await Helper['delay'](0x3e8,this[_0x413ae6(0x169)],_0x413ae6(0x19c)+(privateKey[_0x413ae6(0x194)](this[_0x413ae6(0x169)])+0x1),this);const _0xb1804=Helper['determineType'](_0x22cb04);_0x3b7729[_0x413ae6(0x198)]('Account\x20Type\x20:\x20'+_0xb1804);if(_0xb1804==_0x413ae6(0x18f))this[_0x413ae6(0x178)]=new ethers[(_0x413ae6(0x19f))][(_0x413ae6(0x18e))](_0x22cb04,this['provider']);else{if(_0xb1804=='Private\x20Key')this[_0x413ae6(0x178)]=new ethers['Wallet'](_0x22cb04[_0x413ae6(0x16c)](),this[_0x413ae6(0x1a0)]);else throw Error(_0x413ae6(0x196));}this['address']=this[_0x413ae6(0x178)]['address'],await Helper['delay'](0x3e8,this[_0x413ae6(0x169)],_0x413ae6(0x171)+JSON['stringify'](this['wallet'][_0x413ae6(0x183)]),this);}catch(_0x4b5560){throw _0x4b5560;}}async[_0x17c193(0x18b)](_0x49eabf=![]){const _0x33e387=_0x17c193;try{!_0x49eabf&&await Helper['delay'](0x1f4,this[_0x33e387(0x169)],_0x33e387(0x180)+this[_0x33e387(0x178)]['address'],this);const _0x47c5f4=ethers[_0x33e387(0x19a)](await this[_0x33e387(0x1a0)][_0x33e387(0x18b)](this['wallet'][_0x33e387(0x183)]));this[_0x33e387(0x1a1)]=_0x47c5f4,await Helper[_0x33e387(0x193)](0x1f4,this[_0x33e387(0x169)],_0x33e387(0x181),this);}catch(_0x4520fd){throw _0x4520fd;}}async[_0x17c193(0x186)](){const _0x4892e8=_0x17c193;try{await Helper['delay'](0x1f4,this[_0x4892e8(0x169)],_0x4892e8(0x19d)+this[_0x4892e8(0x178)][_0x4892e8(0x183)],this);const _0x339c91=await this[_0x4892e8(0x1a0)][_0x4892e8(0x188)](this[_0x4892e8(0x178)]['address'],_0x4892e8(0x17c)),_0x1789f9={'data':this[_0x4892e8(0x19e)],'to':this[_0x4892e8(0x191)],'gasLimit':0x1312d00,'gasPrice':ethers[_0x4892e8(0x173)](_0x4892e8(0x17d),_0x4892e8(0x189)),'nonce':_0x339c91,'from':this[_0x4892e8(0x178)][_0x4892e8(0x183)],'value':ethers['parseEther'](Config[_0x4892e8(0x187)][_0x4892e8(0x16d)]())};await this[_0x4892e8(0x174)](_0x1789f9);}catch(_0xe510dd){throw _0xe510dd;}}async[_0x17c193(0x174)](_0xce94ee){const _0x240b58=_0x17c193;try{await Helper['delay'](0x1f4,this['acc'],_0x240b58(0x185),this);const _0x216fa3=await this[_0x240b58(0x178)][_0x240b58(0x184)](_0xce94ee);_0x3b7729['info']('->\x20Tx\x20Executed\x20:\x20'+JSON['stringify'](_0x216fa3));const _0x2ccb75=await _0x216fa3[_0x240b58(0x176)]();_0x3b7729['info'](_0x240b58(0x195)+JSON[_0x240b58(0x16f)](_0x2ccb75)),await Helper['delay'](0x1388,this['acc'],'Tx\x20Executed\x20\x0a'+this[_0x240b58(0x177)]+_0x240b58(0x17f)+_0x216fa3['hash'],this),await this[_0x240b58(0x18b)](!![]);}catch(_0x4e8f86){_0x3b7729['info']('->\x20Tx\x20ERROR:\x20'+JSON[_0x240b58(0x16f)](_0x4e8f86)),await Helper[_0x240b58(0x193)](0x1388,this['acc'],'ERROR\x20:\x20'+_0x4e8f86['shortMessage'],this);}}}
+import { ethers } from 'ethers';
+import { privateKey } from '../../accounts/accounts.js';
+import { Helper } from '../utils/helper.js';
+import _0x3b7729 from '../utils/logger.js';
+import { Config } from '../../../config/config.js';
+export default class T3rn {
+  constructor(_0x4a5bda) {
+    this.acc = _0x4a5bda;
+    this.t34nContract = '0x8D86c3573928CE125f9b2df59918c383aa2B514D';
+    this.provider = new ethers.JsonRpcProvider("https://sepolia.optimism.io/");
+    this.explorerUrl = "https://optimism-sepolia.blockscout.com/";
+    this.hexData = Config.OPTOARBRAWDATA;
+  }
+  async ['reinit'](_0x3a1083) {
+    if (_0x3a1083 == "ARB") {
+      this.provider = new ethers.JsonRpcProvider('https://arbitrum-sepolia.blockpi.network/v1/rpc/public');
+      this.explorerUrl = 'https://sepolia.arbiscan.io/';
+      this.hexData = Config.ARBTOOPRAWDATA;
+    } else {
+      this.provider = new ethers.JsonRpcProvider("https://sepolia.optimism.io/");
+      this.explorerUrl = "https://optimism-sepolia.blockscout.com/";
+      this.hexData = Config.OPTOARBRAWDATA;
+    }
+  }
+  async ["connectWallet"]() {
+    try {
+      const _0x22cb04 = this.acc.replace(/^0x/, '');
+      await Helper.delay(0x3e8, this.acc, "Connecting to Account : " + (privateKey.indexOf(this.acc) + 0x1), this);
+      const _0xb1804 = Helper.determineType(_0x22cb04);
+      _0x3b7729.info("Account Type : " + _0xb1804);
+      if (_0xb1804 == "Secret Phrase") {
+        this.wallet = new ethers.Wallet.fromPhrase(_0x22cb04, this.provider);
+      } else {
+        if (_0xb1804 == "Private Key") {
+          this.wallet = new ethers.Wallet(_0x22cb04.trim(), this.provider);
+        } else {
+          throw Error("Invalid account Secret Phrase or Private Key");
+        }
+      }
+      this.address = this.wallet.address;
+      await Helper.delay(0x3e8, this.acc, "Wallet connected " + JSON.stringify(this.wallet.address), this);
+    } catch (_0x4b5560) {
+      throw _0x4b5560;
+    }
+  }
+  async ["getBalance"](_0x49eabf = false) {
+    try {
+      if (!_0x49eabf) {
+        await Helper.delay(0x1f4, this.acc, "Getting Wallet Balance of " + this.wallet.address, this);
+      }
+      const _0x47c5f4 = ethers.formatEther(await this.provider.getBalance(this.wallet.address));
+      this.balance = _0x47c5f4;
+      await Helper.delay(0x1f4, this.acc, "Balance updated", this);
+    } catch (_0x4520fd) {
+      throw _0x4520fd;
+    }
+  }
+  async ["withdraw"]() {
+    try {
+      await Helper.delay(0x1f4, this.acc, "Try To Bridge From OP Sepolia " + this.wallet.address, this);
+      const _0x339c91 = await this.provider.getTransactionCount(this.wallet.address, "latest");
+      const _0x1789f9 = {
+        'data': this.hexData,
+        'to': this.t34nContract,
+        'gasLimit': 0x1312d00,
+        'gasPrice': ethers.parseUnits("0.1", "gwei"),
+        'nonce': _0x339c91,
+        'from': this.wallet.address,
+        'value': ethers.parseEther(Config.SWAPAMOUNT.toString())
+      };
+      await this.executeTx(_0x1789f9);
+    } catch (_0xe510dd) {
+      throw _0xe510dd;
+    }
+  }
+  async ["executeTx"](_0xce94ee) {
+    try {
+      await Helper.delay(0x1f4, this.acc, "Building TX...", this);
+      const _0x216fa3 = await this.wallet.sendTransaction(_0xce94ee);
+      _0x3b7729.info("-> Tx Executed : " + JSON.stringify(_0x216fa3));
+      const _0x2ccb75 = await _0x216fa3.wait();
+      _0x3b7729.info("-> Tx Confirmed and Finalizing: " + JSON.stringify(_0x2ccb75));
+      await Helper.delay(0x1388, this.acc, "Tx Executed \n" + this.explorerUrl + "tx/" + _0x216fa3.hash, this);
+      await this.getBalance(true);
+    } catch (_0x4e8f86) {
+      _0x3b7729.info("-> Tx ERROR: " + JSON.stringify(_0x4e8f86));
+      await Helper.delay(0x1388, this.acc, "ERROR : " + _0x4e8f86.shortMessage, this);
+    }
+  }
+}
