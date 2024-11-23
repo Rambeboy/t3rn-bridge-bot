@@ -1,7 +1,9 @@
 # T3RN BRIDGE BOT
 
-**T3RN Airdrop**
-New Airdrops : T3RN
+**T3RN AIRDROP**
+
+New Airdrops : **T3RN**
+
 Register : [Here](https://bridge.t1rn.io/)
 
 **SWAP AND EARN BRN**
@@ -21,7 +23,7 @@ Register : [Here](https://bridge.t1rn.io/)
 
 ### LINUX & MAC OS
 
-1. Clone project repo
+1. Clone project repository
    ```
    git clone https://github.com/Rambeboy/t3rn-bridge-bot.git && cd t3rn-bridge-bot
    ```
