@@ -33,14 +33,18 @@ Register : [Here](https://bridge.t1rn.io/)
    ```
 3. Copy accounts folder
    ```
-   cp accounts/account_tmp.js accounts/accounts.js
+   cp accounts/accounts_tmp.js accounts/accounts.js
    ```
-4. Configure your accounts
+4. Configure the accounts
    ```
    nano accounts/account.js
    ```
    and setup your accounts usig PK or Seed
-5. To start the app run 
+5. Configure the config
+   ```
+   nano config/config.js
+   ```
+6. To start the app run 
    ```
    npm run start
    ```
@@ -51,7 +55,7 @@ Register : [Here](https://bridge.t1rn.io/)
 
 2. Clone project repository
    ```
-   git clone https://github.com/Widiskel/t3rn-bridge-bot.git && cd t3rn-bridge-bot
+   git clone https://github.com/Rambeboy/t3rn-bridge-bot.git && cd t3rn-bridge-bot
    ```
 
 3. Install dependencies
