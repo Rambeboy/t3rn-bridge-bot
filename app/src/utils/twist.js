@@ -15,7 +15,7 @@ class Twist {
     const _0x24e1a6 = _0x25dcd0.address ?? '-';
     const _0x14f9e5 = _0x25dcd0.balance ?? '-';
     this.twisters.put(_0x450174.id, {
-      'text': "\n================= Account " + (privateKey.indexOf(_0x450174) + 0x1) + " =================\nAddress      : " + _0x24e1a6 + "\nBalance      : " + _0x14f9e5 + " ETH\n\nStatus : " + _0x598297 + "\nDelay : " + _0x3c2c9b + "\n=============================================="
+      'text': "\n================= Account " + (privateKey.indexOf(_0x450174) + 0x1) + " =================\nAddress      : " + _0x24e1a6 + "\nBalance      : " + _0x14f9e5 + " ETH\n\nStatus : " + _0x598297 + "\nDelay : " + _0x3c2c9b + "\n============================================="
     });
   }
   ['info'](_0x170579 = '') {
