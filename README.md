@@ -106,12 +106,12 @@ To update bot follow this step :
 
 ## NOTE
 
-You can configure:
-- Amount to bridge
+**You can configure:**
+- Amount to Bridge
 - Network
 - Bridge Contract
 - Raw Data
-On config file
+On Config File
 
 If you did'nt get BRN Point, change the config OP or ARB RAW DATA with yours. Where to get it ? do manual TX from ARB to OP or OP to ARB, and go to explorer and copy the Input Data as HEX. Or you can just copy paste from wallet confirmation approval on input / data section.
 
