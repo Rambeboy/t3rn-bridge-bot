@@ -1,1 +1,36 @@
-const _0x270849=_0x4280;(function(_0x48f249,_0x4a000c){const _0x29ecce=_0x4280,_0x37e10f=_0x48f249();while(!![]){try{const _0x390dcd=parseInt(_0x29ecce(0x153))/0x1*(-parseInt(_0x29ecce(0x154))/0x2)+-parseInt(_0x29ecce(0x169))/0x3+-parseInt(_0x29ecce(0x15a))/0x4*(-parseInt(_0x29ecce(0x159))/0x5)+-parseInt(_0x29ecce(0x157))/0x6+parseInt(_0x29ecce(0x167))/0x7*(-parseInt(_0x29ecce(0x165))/0x8)+parseInt(_0x29ecce(0x160))/0x9*(-parseInt(_0x29ecce(0x15f))/0xa)+parseInt(_0x29ecce(0x164))/0xb;if(_0x390dcd===_0x4a000c)break;else _0x37e10f['push'](_0x37e10f['shift']());}catch(_0x18fcd2){_0x37e10f['push'](_0x37e10f['shift']());}}}(_0x25d3,0xd095c));import{Twisters}from'twisters';function _0x4280(_0x340233,_0x2338fd){const _0x25d3fa=_0x25d3();return _0x4280=function(_0x428063,_0x155a4f){_0x428063=_0x428063-0x152;let _0x4367a4=_0x25d3fa[_0x428063];return _0x4367a4;},_0x4280(_0x340233,_0x2338fd);}import _0x3fa977 from'./logger.js';import _0x1b0052 from'../core/core.js';import{privateKey}from'../../../accounts/accounts.js';function _0x25d3(){const _0x3b6323=['put','address','10alONgp','7527150BgaeKa','clearInfo','\x20=================\x0aAddress\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20','log','47161312EEIcrG','8hdeCQg','\x20-\x20','7100653mRaZIu','Account\x20','3616008RDMijq','\x0a=================\x20Account\x20','balance','275PCSIJk','4126UmlhFt','twisters','\x0a==============================================','6935592rSWolV','remove','6170nsEmZa','4364Neqlcg','info','clear'];_0x25d3=function(){return _0x3b6323;};return _0x25d3();}import{RPC}from'../core/network/rpc.js';class Twist{constructor(){const _0xecfc4d=_0x4280;this[_0xecfc4d(0x155)]=new Twisters();}async[_0x270849(0x163)](_0x12e530='',_0x522524='',_0x355761=new _0x1b0052(),_0x39c697){const _0x554f0d=_0x270849,_0x3658cc=privateKey['indexOf'](_0x522524);_0x39c697==undefined&&(_0x3fa977[_0x554f0d(0x15b)](_0x554f0d(0x168)+(_0x3658cc+0x1)+_0x554f0d(0x166)+_0x12e530),_0x39c697='-');const _0x3cee06=_0x355761[_0x554f0d(0x15e)]??'-',_0x426b14=_0x355761[_0x554f0d(0x152)]??{},_0x499daf=_0x426b14['ETH']??'-';this['twisters'][_0x554f0d(0x15d)](_0x522524,{'text':_0x554f0d(0x16a)+(_0x3658cc+0x1)+_0x554f0d(0x162)+_0x3cee06+'\x0aBalance\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20'+_0x499daf+'\x20'+RPC['SYMBOL']+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0aStatus\x20:\x20'+_0x12e530+'\x0aDelay\x20\x20:\x20'+_0x39c697+_0x554f0d(0x156)});}[_0x270849(0x15b)](_0x2ae91a=''){const _0x37b3a6=_0x270849;this['twisters'][_0x37b3a6(0x15d)](0x2,{'text':'\x0a==============================================\x0aInfo\x20:\x20'+_0x2ae91a+_0x37b3a6(0x156)});return;}[_0x270849(0x161)](){const _0x1f447c=_0x270849;this[_0x1f447c(0x155)][_0x1f447c(0x158)](0x2);}[_0x270849(0x15c)](_0x579f34){const _0x1778ec=_0x270849;this['twisters'][_0x1778ec(0x158)](_0x579f34);}}export default new Twist();
+import { Twisters } from 'twisters';
+import _0x3fa977 from './logger.js';
+import _0x1b0052 from '../core/core.js';
+import { privateKey } from '../../../accounts/accounts.js';
+import { RPC } from '../core/network/rpc.js';
+class Twist {
+  constructor() {
+    this.twisters = new Twisters();
+  }
+  async ["log"](_0x12e530 = '', _0x522524 = '', _0x355761 = new _0x1b0052(), _0x39c697) {
+    const _0x3658cc = privateKey.indexOf(_0x522524);
+    if (_0x39c697 == undefined) {
+      _0x3fa977.info("Account " + (_0x3658cc + 0x1) + " - " + _0x12e530);
+      _0x39c697 = '-';
+    }
+    const _0x3cee06 = _0x355761.address ?? '-';
+    const _0x426b14 = _0x355761.balance ?? {};
+    const _0x499daf = _0x426b14.ETH ?? '-';
+    this.twisters.put(_0x522524, {
+      'text': "\n================= Account " + (_0x3658cc + 0x1) + " =================\nAddress         : " + _0x3cee06 + "\nBalance         : " + _0x499daf + " " + RPC.SYMBOL + "\n               \nStatus : " + _0x12e530 + "\nDelay  : " + _0x39c697 + "\n=============================================="
+    });
+  }
+  ["info"](_0x2ae91a = '') {
+    this.twisters.put(0x2, {
+      'text': "\n==============================================\nInfo : " + _0x2ae91a + "\n============================================="
+    });
+    return;
+  }
+  ["clearInfo"]() {
+    this.twisters.remove(0x2);
+  }
+  ["clear"](_0x579f34) {
+    this.twisters.remove(_0x579f34);
+  }
+}
+export default new Twist();
