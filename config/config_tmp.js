@@ -5,6 +5,8 @@ export class Config {
    */
   static network = "OP"; //OP or ARB
   static BRIDGEAMOUNT = "0.1";
+  static OPRPCURL = "https://optimism-sepolia.blockpi.network/v1/rpc/private";
+  static ARBRPCURL = "https://sepolia-rollup.arbitrum.io/rpc";
 
   static OPTOARBBRIDGECONTRACT = "0xf221750e52aa080835d2957f2eed0d5d7ddd8c38";
   static ARBTOOPBRIDGECONTRACT = "0x8D86c3573928CE125f9b2df59918c383aa2B514D";
