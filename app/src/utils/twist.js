@@ -17,7 +17,7 @@ class Twist {
     const _0x426b14 = _0x355761.balance ?? {};
     const _0x499daf = _0x426b14.ETH ?? '-';
     this.twisters.put(_0x522524, {
-      'text': "\n================== Account " + (_0x3658cc + 0x1) + " ==================\nAddress         : " + _0x3cee06 + "\nBalance         : " + _0x499daf + " " + RPC.SYMBOL + "\n               \nStatus : " + _0x12e530 + " \nDelay  : " + _0x39c697 + "\n=============================================="
+      'text': "\n================= Account " + (_0x3658cc + 0x1) + " ==================\nAddress         : " + _0x3cee06 + "\nBalance         : " + _0x499daf + " " + RPC.SYMBOL + "\n               \nStatus : " + _0x12e530 + " \nDelay  : " + _0x39c697 + "\n=============================================="
     });
   }
   ["info"](_0x2ae91a = '') {
