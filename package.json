@@ -5,7 +5,7 @@
   "description": "t3rn bridge Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node start.js",
+    "start": "node scripts/start.js",
     "dev": "node app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf app && javascript-obfuscator --config build-config.json"
