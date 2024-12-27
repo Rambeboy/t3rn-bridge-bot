@@ -25,25 +25,21 @@ A bot designed to automate transactions and bridge assets on the t3rn network, m
    ```
    git clone https://github.com/Rambeboy/t3rn-bridge-bot.git && cd t3rn-bridge-bot
    ```
-2. Install dependencies
+2. Install dependencies and setup accounts
    ```
-   npm install
+   npm install && npm run setup
    ```
-3. Copy all folder
-   ```
-   cp accounts/accounts_tmp.js accounts/accounts.js && cp config/config_tmp.js config/config.js
-   ```
-4. Configure the accounts
+3. Configure the accounts
    ```
    nano accounts/account.js
    ```
    Setup your accounts using PK or Seed
-5. Configure the config
+4. Configure the config
    ```
    nano config/config.js
    ```
    Setup your config using OP / ARB
-6. To start the app run 
+5. To start the app run 
    ```
    npm run start
    ```
