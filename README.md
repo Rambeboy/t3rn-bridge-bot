@@ -115,4 +115,9 @@ If you did'nt get BRN Point, change the config OP or ARB RAW DATA with yours. Wh
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+
+## DISCLAIMER
+
+The information in this application is for educational purposes only and is not guaranteed to be accurate. Users are responsible for all risks, including account security and decisions made. We are not responsible for any losses or violations of the law arising from the use of this application.
+
 ---
