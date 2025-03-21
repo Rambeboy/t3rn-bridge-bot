@@ -1,6 +1,6 @@
 {
   "name": "t3rn-bridge-bot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "description": "t3rn bridge Bot",
   "main": "index.js",
