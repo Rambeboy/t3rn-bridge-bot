@@ -1,7 +1,5 @@
 # T3RN BRIDGE BOT
 
-![t3rn](assets/img1.png)
-
 A bot designed to automate transactions and bridge assets on the t3rn network, making the process seamless and efficient. Now supports both Optimism Sepolia and Arbitrum Sepolia testnets.
 
 **Register : [T3rn Airdrop](https://bridge.t1rn.io/)**
@@ -74,7 +72,7 @@ A bot designed to automate transactions and bridge assets on the t3rn network, m
 
 11. To start the app open your `Command Prompt` or `Power Shell` again and run.
     ```
-    node app/index.js
+    npm run start
     ```
    
 
