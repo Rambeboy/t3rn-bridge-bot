@@ -1,1 +1,37 @@
-const _0x33d44f=_0x5f26;(function(_0x17cbd9,_0x3145da){const _0x28faa3=_0x5f26,_0x3fa43f=_0x17cbd9();while(!![]){try{const _0x33e06a=parseInt(_0x28faa3(0x186))/0x1*(-parseInt(_0x28faa3(0x197))/0x2)+-parseInt(_0x28faa3(0x198))/0x3+parseInt(_0x28faa3(0x195))/0x4*(parseInt(_0x28faa3(0x189))/0x5)+-parseInt(_0x28faa3(0x192))/0x6+parseInt(_0x28faa3(0x18b))/0x7+parseInt(_0x28faa3(0x19a))/0x8*(parseInt(_0x28faa3(0x18e))/0x9)+-parseInt(_0x28faa3(0x188))/0xa*(-parseInt(_0x28faa3(0x19b))/0xb);if(_0x33e06a===_0x3145da)break;else _0x3fa43f['push'](_0x3fa43f['shift']());}catch(_0x14765f){_0x3fa43f['push'](_0x3fa43f['shift']());}}}(_0x1e23,0xc1879));import{Twisters}from'twisters';function _0x5f26(_0x19548d,_0x2c9324){const _0x1e2375=_0x1e23();return _0x5f26=function(_0x5f26c0,_0xccc82c){_0x5f26c0=_0x5f26c0-0x182;let _0x151f9d=_0x1e2375[_0x5f26c0];return _0x151f9d;},_0x5f26(_0x19548d,_0x2c9324);}function _0x1e23(){const _0x81a5f0=['\x0aStatus\x20:\x20','10363256qMBexg','132SgZfYs','BASERPC','\x0aBalance\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20-\x20','\x20=================\x0aAddress\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20','ARBRPC','remove','info','SYMBOL','22IFKcCb','clear','322970CSCMMf','351145wkaYJQ','log','957985qQsAQm','\x20-\x20','\x0a==================\x20Account\x20','9NTWpJa','\x0a==============================================\x0aInfo\x20:\x20','address','put','4482102JlbRDX','twisters','\x0a==============================================','88kmEIjl','clearInfo','28632CIIuEA','4530594rtiEmu'];_0x1e23=function(){return _0x81a5f0;};return _0x1e23();}import _0x5e70bf from'./logger.js';import _0x37e8cc from'../core/core.js';import{privateKey}from'../../accounts/accounts.js';import{RPC}from'../core/network/rpc.js';class Twist{constructor(){const _0x54dae5=_0x5f26;this[_0x54dae5(0x193)]=new Twisters();}async[_0x33d44f(0x18a)](_0x26ba45='',_0x4bdc5e='',_0x473b57=new _0x37e8cc(),_0x1c5b6c){const _0x3f9c24=_0x33d44f,_0x336627=privateKey['indexOf'](_0x4bdc5e);_0x1c5b6c==undefined&&(_0x5e70bf[_0x3f9c24(0x184)]('Account\x20'+(_0x336627+0x1)+_0x3f9c24(0x18c)+_0x26ba45),_0x1c5b6c='-');const _0x372742=_0x473b57[_0x3f9c24(0x190)]??'?',_0x3f4c90=_0x473b57['balance']??{},_0x24f555=_0x3f4c90['ETHARB']??'?',_0x18219e=_0x3f4c90['ETHBASE']??'?';this[_0x3f9c24(0x193)]['put'](_0x4bdc5e,{'text':_0x3f9c24(0x18d)+(_0x336627+0x1)+_0x3f9c24(0x19e)+_0x372742+_0x3f9c24(0x19d)+_0x24f555+'\x20'+RPC[_0x3f9c24(0x182)][_0x3f9c24(0x185)]+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-\x20'+_0x18219e+'\x20'+RPC[_0x3f9c24(0x19c)][_0x3f9c24(0x185)]+_0x3f9c24(0x199)+_0x26ba45+'\x0aDelay\x20\x20:\x20'+_0x1c5b6c+'\x0a=============================================='});}[_0x33d44f(0x184)](_0x4b22b5=''){const _0x2860cf=_0x33d44f;this['twisters'][_0x2860cf(0x191)](0x2,{'text':_0x2860cf(0x18f)+_0x4b22b5+_0x2860cf(0x194)});return;}[_0x33d44f(0x196)](){const _0xe24502=_0x33d44f;this[_0xe24502(0x193)][_0xe24502(0x183)](0x2);}[_0x33d44f(0x187)](_0x4d6590){const _0x2d5561=_0x33d44f;this[_0x2d5561(0x193)][_0x2d5561(0x183)](_0x4d6590);}}export default new Twist();
+import { Twisters } from 'twisters';
+import a5_0xcca3b1 from './logger.js';
+import a5_0x529015 from '../core/core.js';
+import { privateKey } from '../../accounts/accounts.js';
+import { RPC } from '../core/network/rpc.js';
+class Twist {
+  constructor() {
+    this.twisters = new Twisters();
+  }
+  async ["log"](_0x5a09b4 = '', _0x33bc5e = '', _0x35f1a8 = new a5_0x529015(), _0x16ba6f) {
+    const _0x1e0522 = privateKey.indexOf(_0x33bc5e);
+    if (_0x16ba6f == undefined) {
+      a5_0xcca3b1.info("Account " + (_0x1e0522 + 0x1) + " - " + _0x5a09b4);
+      _0x16ba6f = '-';
+    }
+    const _0x18cd42 = _0x35f1a8.address ?? '?';
+    const _0xc3ba72 = _0x35f1a8.balance ?? {};
+    const _0x37bf7a = _0xc3ba72.ETHARB ?? '?';
+    const _0x99eb4a = _0xc3ba72.ETHBASE ?? '?';
+    this.twisters.put(_0x33bc5e, {
+      'text': "\n================== Account " + (_0x1e0522 + 0x1) + " =================\nAddress         : " + _0x18cd42 + "\nBalance         : - " + _0x37bf7a + " " + RPC.ARBRPC.SYMBOL + "\n                  - " + _0x99eb4a + " " + RPC.BASERPC.SYMBOL + "\nStatus : " + _0x5a09b4 + "\nDelay : " + _0x16ba6f + "\n=============================================="
+    });
+  }
+  ['info'](_0x9339a0 = '') {
+    this.twisters.put(0x2, {
+      'text': "\n==============================================\nInfo : " + _0x9339a0 + "\n=============================================="
+    });
+    return;
+  }
+  ['clearInfo']() {
+    this.twisters.remove(0x2);
+  }
+  ['clear'](_0x1d28ac) {
+    this.twisters.remove(_0x1d28ac);
+  }
+}
+export default new Twist();
